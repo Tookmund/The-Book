@@ -13,4 +13,3 @@ function bigBrother() {
         },1000);
         
     }
-}
