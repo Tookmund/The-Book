@@ -3,9 +3,8 @@ function bigBrother() {
     $("body").html("<div id='bb' align='center'>Big Brother is Watching You</div>"+progress);
     $("body").css("background-color", "black");
     var value = 10;
-    $('.progress').change(function(event) {
-        value = $(this).val();
-        $('.progress-bar').css('width',value+10);
-    });
-    $('.progress-bar').css('width',value+10);
+    while (value < 100) {
+        value += 10;
+        $('.progress-bar').css('width',value);
+    }
 }
