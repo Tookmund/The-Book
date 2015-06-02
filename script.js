@@ -10,6 +10,6 @@ function bigBrother() {
         }
         $('.progress-bar').css('width',value+'%');
         console.log(value);
-        },1000);
+        },10);
         
     }
