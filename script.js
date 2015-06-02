@@ -5,7 +5,10 @@ function bigBrother() {
     var value = 10;
     while (value < 100) {
         value += 10;
-        $('.progress-bar').css('width',value+'%');
-        console.log(value);
+        window.setTimeout(function() {
+            $('.progress-bar').css('width',value+'%');
+            console.log(value);
+        },100);
+        
     }
 }
