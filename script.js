@@ -8,7 +8,7 @@ function bigBrother() {
         window.setTimeout(function() {
             $('.progress-bar').css('width',value+'%');
             console.log(value);
-        },100);
+        },1000);
         
     }
 }
