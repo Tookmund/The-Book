@@ -6,10 +6,10 @@ function bigBrother() {
     setInterval(function() {
         value += 1;
         if (value > 100) {
-            value = NaN;
+            value = 100;
         }
         $('.progress-bar').css('width',value+'%');
         console.log(value);
-        },10);
+        },100);
         
     }
