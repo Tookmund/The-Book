@@ -4,9 +4,9 @@ function bigBrother() {
     $("body").css("background-color", "black");
     var value = 0;
     setInterval(function() {
-        value += 100;
+        value += 1;
         if (value > 100) {
-            value = 0;
+            value = NaN;
         }
         $('.progress-bar').css('width',value+'%');
         console.log(value);
