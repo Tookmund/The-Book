@@ -10,6 +10,6 @@ body {
     font-family: monospace;
 }
 .jumbotron {
-    
-    height:200px;
+    background-image:url('http://ncrenegade.com/wp-content/uploads/2013/03/INGSOC.bmp');
+    height:480px;
 }
