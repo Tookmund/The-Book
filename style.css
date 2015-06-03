@@ -12,4 +12,5 @@ body {
 .jumbotron {
     background-image:url('http://ncrenegade.com/wp-content/uploads/2013/03/INGSOC.bmp');
     height:480px;
+    width:100%;
 }
