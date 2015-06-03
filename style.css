@@ -9,8 +9,7 @@ body {
     font-size: 100px;
     font-family: monospace;
 }
-.jumbotron {
-    height:480px;
-    padding: 0px;
-    backgroud-size: 2400px 400px;
+
+#banner img {
+    padding: 20px;
 }
