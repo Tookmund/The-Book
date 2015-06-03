@@ -9,3 +9,7 @@ body {
     font-size: 100px;
     font-family: monospace;
 }
+.jumbotron {
+    
+    height:200px;
+}
